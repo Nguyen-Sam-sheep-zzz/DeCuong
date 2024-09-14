@@ -9,8 +9,9 @@ public class Student extends Person implements Serializable {
 
     }
 
-    Student(int personID, String personName, String dateOfBirth) {
+    Student(int personID, String personName, String dateOfBirth,double markAvg) {
         super(personID, personName, dateOfBirth);
+        this.markAvg = markAvg;
     }
 
     public double getMarkAvg() {

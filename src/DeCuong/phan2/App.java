@@ -7,9 +7,9 @@ public class App {
     public static void main(String[] args) {
         CRUDStudent crud = new CRUDStudent();
 
-        Student student = new Student(1, "Khánh", "unknown");
-        Student student1 = new Student(2, "Chanh", "unknown");
-        Student student2 = new Student(3, "Sâm", "unknown");
+        Student student = new Student(1, "Khánh", "unknown",10);
+        Student student1 = new Student(2, "Chanh", "unknown",10);
+        Student student2 = new Student(3, "Sâm", "unknown",10);
 
         crud.addStudent(student);
         crud.addStudent(student1);

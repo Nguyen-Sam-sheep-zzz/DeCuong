@@ -73,7 +73,6 @@ public class CRUDStudent {
         } catch (IOException | ClassNotFoundException e) {
             e.printStackTrace();
         }
-
         return studentsList.toArray(new Student[0]);
     }
 }
